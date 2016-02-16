@@ -4,50 +4,29 @@ ZO_Ingame_SavedVariables =
     {
         ["@blakdeth913"] = 
         {
-            ["$AccountWide"] = 
-            {
-                ["GamepadInventory"] = 
-                {
-                    ["version"] = 2,
-                    ["useStatComparisonTooltip"] = true,
-                },
-                ["GuildMotD"] = 
-                {
-                    ["version"] = 1,
-                },
-            },
             ["Cat'Damon"] = 
             {
-                ["PerformanceMeters"] = 
-                {
-                    ["version"] = 1,
-                    ["x"] = -20,
-                    ["point"] = 6,
-                    ["y"] = 20,
-                    ["relPoint"] = 6,
-                },
-                ["DeathRecap"] = 
-                {
-                    ["version"] = 1,
-                    ["recapOn"] = true,
-                },
-                ["SmithingCreation"] = 
+                ["GamepadProvisioner"] = 
                 {
                     ["version"] = 2,
-                    ["haveMaterialChecked"] = false,
-                    ["haveKnowledgeChecked"] = true,
+                    ["haveIngredientsChecked"] = false,
+                    ["haveSkillsChecked"] = false,
                 },
-                ["Dyeing"] = 
+                ["Chat"] = 
                 {
-                    ["sortStyle"] = 1,
-                    ["version"] = 1,
-                    ["showLocked"] = true,
-                },
-                ["Provisioner"] = 
-                {
-                    ["version"] = 1,
-                    ["haveSkillsChecked"] = true,
-                    ["haveIngredientsChecked"] = true,
+                    ["containers"] = 
+                    {
+                        [1] = 
+                        {
+                            ["y"] = -82,
+                            ["width"] = 445,
+                            ["point"] = 6,
+                            ["x"] = 0,
+                            ["height"] = 267,
+                            ["relPoint"] = 6,
+                        },
+                    },
+                    ["version"] = 4,
                 },
                 ["DurabilityWarner"] = 
                 {
@@ -60,22 +39,35 @@ ZO_Ingame_SavedVariables =
                     {
                     },
                 },
-                ["GamepadProvisioner"] = 
+                ["DeathRecap"] = 
                 {
+                    ["recapOn"] = true,
+                    ["version"] = 1,
+                },
+                ["Provisioner"] = 
+                {
+                    ["version"] = 1,
+                    ["haveIngredientsChecked"] = true,
+                    ["haveSkillsChecked"] = true,
+                },
+                ["SmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = true,
                     ["version"] = 2,
-                    ["haveSkillsChecked"] = false,
-                    ["haveIngredientsChecked"] = false,
+                    ["haveMaterialChecked"] = false,
                 },
                 ["WorldMap"] = 
                 {
-                    ["version"] = 4,
                     [1] = 
                     {
-                        ["width"] = 488,
-                        ["x"] = 0,
-                        ["mapSize"] = 2,
                         ["point"] = 128,
+                        ["height"] = 550,
+                        ["mapSize"] = 2,
+                        ["x"] = 0,
                         ["relPoint"] = 128,
+                        ["y"] = 0,
+                        ["width"] = 488,
+                        ["keepSquare"] = true,
                         ["filters"] = 
                         {
                             [1] = 
@@ -91,9 +83,6 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["y"] = 0,
-                        ["keepSquare"] = true,
-                        ["height"] = 550,
                     },
                     [2] = 
                     {
@@ -117,6 +106,7 @@ ZO_Ingame_SavedVariables =
                     [3] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -130,11 +120,11 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [4] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [1] = 
@@ -150,11 +140,11 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [5] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -168,220 +158,52 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["allowHistory"] = false,
-                    },
-                    ["userMode"] = 2,
-                },
-                ["Chat"] = 
-                {
-                    ["containers"] = 
-                    {
-                        [1] = 
-                        {
-                            ["relPoint"] = 6,
-                            ["width"] = 445,
-                            ["height"] = 267,
-                            ["point"] = 6,
-                            ["y"] = -82,
-                            ["x"] = 0,
-                        },
                     },
                     ["version"] = 4,
+                    ["userMode"] = 2,
                 },
-            },
-            ["Randomcatperson"] = 
-            {
                 ["PerformanceMeters"] = 
                 {
-                    ["version"] = 1,
-                    ["x"] = -20,
-                    ["point"] = 6,
                     ["y"] = 20,
-                    ["relPoint"] = 6,
-                },
-                ["DeathRecap"] = 
-                {
+                    ["x"] = -20,
                     ["version"] = 1,
-                    ["recapOn"] = true,
-                },
-                ["SmithingCreation"] = 
-                {
-                    ["version"] = 2,
-                    ["haveMaterialChecked"] = false,
-                    ["haveKnowledgeChecked"] = true,
+                    ["point"] = 6,
+                    ["relPoint"] = 6,
                 },
                 ["Dyeing"] = 
                 {
                     ["sortStyle"] = 1,
                     ["version"] = 1,
                     ["showLocked"] = true,
-                },
-                ["Provisioner"] = 
-                {
-                    ["version"] = 1,
-                    ["haveSkillsChecked"] = true,
-                    ["haveIngredientsChecked"] = true,
-                },
-                ["DurabilityWarner"] = 
-                {
-                    ["version"] = 1,
-                },
-                ["AutoComplete"] = 
-                {
-                    ["version"] = 3,
-                    ["RecentInteractions"] = 
-                    {
-                    },
-                },
-                ["GamepadProvisioner"] = 
-                {
-                    ["version"] = 2,
-                    ["haveSkillsChecked"] = false,
-                    ["haveIngredientsChecked"] = false,
-                },
-                ["WorldMap"] = 
-                {
-                    ["version"] = 4,
-                    [1] = 
-                    {
-                        ["width"] = 488,
-                        ["x"] = 0,
-                        ["mapSize"] = 2,
-                        ["point"] = 128,
-                        ["relPoint"] = 128,
-                        ["filters"] = 
-                        {
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [1] = false,
-                                [6] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                        ["y"] = 0,
-                        ["keepSquare"] = true,
-                        ["height"] = 550,
-                    },
-                    [2] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["filters"] = 
-                        {
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [1] = false,
-                                [6] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                    },
-                    [3] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["filters"] = 
-                        {
-                            [2] = 
-                            {
-                                [8] = false,
-                                [1] = false,
-                                [3] = false,
-                                [4] = false,
-                                [5] = false,
-                                [11] = 1,
-                                [7] = false,
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    [4] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["filters"] = 
-                        {
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [3] = false,
-                                [2] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    [5] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["filters"] = 
-                        {
-                            [2] = 
-                            {
-                                [8] = false,
-                                [1] = false,
-                                [3] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    ["userMode"] = 2,
-                },
-                ["Chat"] = 
-                {
-                    ["containers"] = 
-                    {
-                        [1] = 
-                        {
-                            ["relPoint"] = 6,
-                            ["width"] = 445,
-                            ["height"] = 267,
-                            ["point"] = 6,
-                            ["y"] = -82,
-                            ["x"] = 0,
-                        },
-                    },
-                    ["version"] = 4,
                 },
             },
             ["Bandersnatch Cabbagepatch"] = 
             {
-                ["PerformanceMeters"] = 
-                {
-                    ["version"] = 1,
-                    ["x"] = -20,
-                    ["point"] = 6,
-                    ["y"] = 20,
-                    ["relPoint"] = 6,
-                },
-                ["DeathRecap"] = 
-                {
-                    ["version"] = 1,
-                    ["recapOn"] = true,
-                },
-                ["GamepadSmithingCreation"] = 
+                ["GamepadProvisioner"] = 
                 {
                     ["version"] = 2,
-                    ["haveMaterialChecked"] = false,
-                    ["haveKnowledgeChecked"] = false,
+                    ["haveIngredientsChecked"] = false,
+                    ["haveSkillsChecked"] = false,
+                },
+                ["Chat"] = 
+                {
+                    ["containers"] = 
+                    {
+                        [1] = 
+                        {
+                            ["y"] = -82,
+                            ["width"] = 445,
+                            ["point"] = 6,
+                            ["x"] = 0,
+                            ["height"] = 267,
+                            ["relPoint"] = 6,
+                        },
+                    },
+                    ["version"] = 4,
+                },
+                ["DurabilityWarner"] = 
+                {
+                    ["version"] = 1,
                 },
                 ["AutoComplete"] = 
                 {
@@ -390,44 +212,29 @@ ZO_Ingame_SavedVariables =
                     {
                     },
                 },
-                ["Dyeing"] = 
+                ["DeathRecap"] = 
                 {
-                    ["sortStyle"] = 1,
+                    ["recapOn"] = true,
                     ["version"] = 1,
-                    ["showLocked"] = true,
                 },
                 ["Provisioner"] = 
                 {
                     ["version"] = 1,
-                    ["haveSkillsChecked"] = true,
                     ["haveIngredientsChecked"] = true,
-                },
-                ["SmithingCreation"] = 
-                {
-                    ["version"] = 2,
-                    ["haveMaterialChecked"] = false,
-                    ["haveKnowledgeChecked"] = true,
-                },
-                ["DurabilityWarner"] = 
-                {
-                    ["version"] = 1,
-                },
-                ["GamepadProvisioner"] = 
-                {
-                    ["version"] = 2,
-                    ["haveSkillsChecked"] = false,
-                    ["haveIngredientsChecked"] = false,
+                    ["haveSkillsChecked"] = true,
                 },
                 ["WorldMap"] = 
                 {
-                    ["version"] = 4,
                     [1] = 
                     {
-                        ["width"] = 488,
-                        ["x"] = 0,
-                        ["mapSize"] = 2,
                         ["point"] = 128,
+                        ["height"] = 550,
+                        ["mapSize"] = 2,
+                        ["x"] = 0,
                         ["relPoint"] = 128,
+                        ["y"] = 0,
+                        ["width"] = 488,
+                        ["keepSquare"] = true,
                         ["filters"] = 
                         {
                             [1] = 
@@ -443,9 +250,6 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["y"] = 0,
-                        ["keepSquare"] = true,
-                        ["height"] = 550,
                     },
                     [2] = 
                     {
@@ -469,6 +273,7 @@ ZO_Ingame_SavedVariables =
                     [3] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -482,11 +287,11 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [4] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [1] = 
@@ -502,11 +307,11 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [5] = 
                     {
                         ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -520,9 +325,44 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["allowHistory"] = false,
                     },
+                    ["version"] = 4,
                     ["userMode"] = 2,
+                },
+                ["SmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = true,
+                    ["version"] = 2,
+                    ["haveMaterialChecked"] = false,
+                },
+                ["PerformanceMeters"] = 
+                {
+                    ["y"] = 20,
+                    ["x"] = -20,
+                    ["version"] = 1,
+                    ["point"] = 6,
+                    ["relPoint"] = 6,
+                },
+                ["Dyeing"] = 
+                {
+                    ["sortStyle"] = 1,
+                    ["version"] = 1,
+                    ["showLocked"] = true,
+                },
+                ["GamepadSmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = false,
+                    ["version"] = 2,
+                    ["haveMaterialChecked"] = false,
+                },
+            },
+            ["Randomcatperson"] = 
+            {
+                ["GamepadProvisioner"] = 
+                {
+                    ["version"] = 2,
+                    ["haveIngredientsChecked"] = false,
+                    ["haveSkillsChecked"] = false,
                 },
                 ["Chat"] = 
                 {
@@ -530,15 +370,175 @@ ZO_Ingame_SavedVariables =
                     {
                         [1] = 
                         {
-                            ["relPoint"] = 6,
-                            ["width"] = 445,
-                            ["height"] = 267,
-                            ["point"] = 6,
                             ["y"] = -82,
+                            ["width"] = 445,
+                            ["point"] = 6,
                             ["x"] = 0,
+                            ["height"] = 267,
+                            ["relPoint"] = 6,
                         },
                     },
                     ["version"] = 4,
+                },
+                ["DurabilityWarner"] = 
+                {
+                    ["version"] = 1,
+                },
+                ["AutoComplete"] = 
+                {
+                    ["version"] = 3,
+                    ["RecentInteractions"] = 
+                    {
+                    },
+                },
+                ["DeathRecap"] = 
+                {
+                    ["recapOn"] = true,
+                    ["version"] = 1,
+                },
+                ["Provisioner"] = 
+                {
+                    ["version"] = 1,
+                    ["haveIngredientsChecked"] = true,
+                    ["haveSkillsChecked"] = true,
+                },
+                ["SmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = true,
+                    ["version"] = 2,
+                    ["haveMaterialChecked"] = false,
+                },
+                ["WorldMap"] = 
+                {
+                    [1] = 
+                    {
+                        ["point"] = 128,
+                        ["height"] = 550,
+                        ["mapSize"] = 2,
+                        ["x"] = 0,
+                        ["relPoint"] = 128,
+                        ["y"] = 0,
+                        ["width"] = 488,
+                        ["keepSquare"] = true,
+                        ["filters"] = 
+                        {
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [1] = false,
+                                [6] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                    },
+                    [2] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["filters"] = 
+                        {
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [1] = false,
+                                [6] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                    },
+                    [3] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [2] = 
+                            {
+                                [8] = false,
+                                [1] = false,
+                                [3] = false,
+                                [4] = false,
+                                [5] = false,
+                                [11] = 1,
+                                [7] = false,
+                            },
+                        },
+                    },
+                    [4] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [3] = false,
+                                [2] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                    },
+                    [5] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [2] = 
+                            {
+                                [8] = false,
+                                [1] = false,
+                                [3] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                    },
+                    ["version"] = 4,
+                    ["userMode"] = 2,
+                },
+                ["PerformanceMeters"] = 
+                {
+                    ["y"] = 20,
+                    ["x"] = -20,
+                    ["version"] = 1,
+                    ["point"] = 6,
+                    ["relPoint"] = 6,
+                },
+                ["Dyeing"] = 
+                {
+                    ["sortStyle"] = 1,
+                    ["version"] = 1,
+                    ["showLocked"] = true,
+                },
+            },
+            ["$AccountWide"] = 
+            {
+                ["GamepadInventory"] = 
+                {
+                    ["useStatComparisonTooltip"] = true,
+                    ["version"] = 2,
+                },
+                ["GuildMotD"] = 
+                {
+                    ["version"] = 1,
                 },
             },
         },
