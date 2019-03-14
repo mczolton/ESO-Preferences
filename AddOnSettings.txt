@@ -1,2 +1,5 @@
-#Version 100025
-#LoadOutOfDateAddOns 0
+#Version 100026
+#LoadOutOfDateAddOns 1
+#NA Megaserver-Putrefacta
+AuraMastery 0
+Srendarr 1
