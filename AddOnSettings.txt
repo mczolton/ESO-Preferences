@@ -1,5 +1,17 @@
-#Version 100026
-#LoadOutOfDateAddOns 1
+#Version 100034
+#LoadOutOfDateAddOns 0
+#Default
+TrueExploration 0
+LibDebugLogger 0
+LibChatMessage 0
+LibGPS 0
+LibMapPing 0
 #NA Megaserver-Putrefacta
+DarkUI 1
+TrueExploration 0
+LibDebugLogger 0
 AuraMastery 0
+LibChatMessage 0
+LibGPS 0
 Srendarr 1
+LibMapPing 0
