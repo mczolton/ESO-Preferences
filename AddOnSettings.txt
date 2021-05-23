@@ -1,5 +1,5 @@
 #Version 100034
-#LoadOutOfDateAddOns 0
+#LoadOutOfDateAddOns 1
 #Default
 TrueExploration 0
 LibDebugLogger 0
