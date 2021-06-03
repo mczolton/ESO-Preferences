@@ -1,5 +1,5 @@
-#Version 100034
-#LoadOutOfDateAddOns 1
+#Version 100035
+#AcknowledgedOutOfDateAddonsVersion 100035
 #Default
 TrueExploration 0
 LibDebugLogger 0
