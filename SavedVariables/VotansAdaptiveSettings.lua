@@ -1,34 +1,34 @@
 VotansAdaptiveSettings_Data =
 {
-    ["previousValues"] = 
-    {
-        [32] = "2",
-    },
     ["Default"] = 
     {
         ["@blakdeth913"] = 
         {
             ["$AccountWide"] = 
             {
-                ["speed"] = 30,
-                ["touchOcclusion"] = true,
-                ["hidden"] = 20,
-                ["activated"] = true,
-                ["maxDistance"] = 2.0010000000,
-                ["touchParticleDistance"] = true,
-                ["minDistance"] = 0.7210000000,
-                ["touchAntiAlias"] = true,
-                ["loadingBurstDelay"] = 4,
-                ["touchClutter"] = false,
-                ["showViewDistance"] = true,
                 ["framedropWeight"] = 6,
-                ["normal"] = 60,
-                ["touchGodRays"] = true,
-                ["combat"] = 60,
+                ["speed"] = 30,
+                ["activated"] = true,
+                ["showViewDistance"] = true,
+                ["touchParticleDistance"] = true,
+                ["maxDistance"] = 2.0010000000,
                 ["version"] = 1,
                 ["touchDistortion"] = true,
+                ["touchClutter"] = false,
+                ["normal"] = 64,
+                ["touchGodRays"] = true,
+                ["minDistance"] = 0.7210000000,
                 ["minDistanceCombat"] = 0.5610000000,
+                ["hidden"] = 20,
+                ["combat"] = 64,
+                ["loadingBurstDelay"] = 4,
+                ["touchOcclusion"] = false,
+                ["touchAntiAlias"] = true,
             },
         },
+    },
+    ["previousValues"] = 
+    {
+        [32] = "2",
     },
 }

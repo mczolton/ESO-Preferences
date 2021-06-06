@@ -6,16 +6,16 @@ ChatWindowManager =
         {
             ["$AccountWide"] = 
             {
+                ["version"] = 1.2200000000,
                 ["RememberState"] = true,
                 ["AddReloadButton"] = true,
-                ["AutoHideChat"] = true,
+                ["AutoHideChat"] = false,
+                ["AddStatusSelect"] = true,
                 ["chatstate"] = 0,
-                ["SimpleDelete"] = false,
                 ["ReloadConfirm"] = true,
                 ["sBuffer"] = false,
-                ["version"] = 1.2200000000,
+                ["SimpleDelete"] = false,
                 ["StatusChat"] = true,
-                ["AddStatusSelect"] = true,
             },
         },
     },
