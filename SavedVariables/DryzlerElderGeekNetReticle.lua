@@ -19,11 +19,11 @@ DryzlerElderGeekNetReticleSavedVariables =
                                     [1] = 
                                     {
                                         ["numMaxChars"] = 1,
-                                        ["message"] = "|c3f95ffDryzler's|r |cEFEBBEReticle|r: New reticle mode: CROSS (can be activated in the settings)",
                                         ["chars"] = 
                                         {
                                             ["8796093053805013"] = true,
                                         },
+                                        ["message"] = "|c3f95ffDryzler's|r |cEFEBBEReticle|r: New reticle mode: CROSS (can be activated in the settings)",
                                     },
                                 },
                                 ["version"] = 2,
@@ -32,25 +32,33 @@ DryzlerElderGeekNetReticleSavedVariables =
                     },
                 },
                 ["version"] = 2,
+                ["degad1"] = true,
                 ["settings"] = 
                 {
-                    ["rule"] = 
+                    ["modes"] = 
                     {
-                        ["hrule"] = true,
-                        ["vruleAlpha"] = 75,
-                        ["hruleAlpha"] = 75,
-                        ["vrule"] = true,
-                        ["rotate"] = false,
-                        ["vruleScale"] = 100,
-                        ["hruleScale"] = 100,
+                        ["square"] = true,
+                        ["circle"] = false,
+                        ["dot"] = false,
+                        ["rule"] = false,
                     },
                     ["circle"] = 
                     {
-                        ["hruleAlpha"] = 50,
                         ["hrule"] = false,
                         ["vrule"] = false,
-                        ["vruleAlpha"] = 50,
                         ["scale"] = 100,
+                        ["hruleAlpha"] = 50,
+                        ["vruleAlpha"] = 50,
+                    },
+                    ["rule"] = 
+                    {
+                        ["hrule"] = true,
+                        ["vrule"] = true,
+                        ["vruleScale"] = 100,
+                        ["rotate"] = false,
+                        ["hruleAlpha"] = 75,
+                        ["vruleAlpha"] = 75,
+                        ["hruleScale"] = 100,
                     },
                     ["dot"] = 
                     {
@@ -61,15 +69,7 @@ DryzlerElderGeekNetReticleSavedVariables =
                         ["rotate"] = false,
                         ["scale"] = 76,
                     },
-                    ["modes"] = 
-                    {
-                        ["circle"] = false,
-                        ["dot"] = false,
-                        ["square"] = true,
-                        ["rule"] = false,
-                    },
                 },
-                ["degad1"] = true,
             },
         },
     },

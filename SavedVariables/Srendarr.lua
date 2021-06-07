@@ -6,48 +6,46 @@ SrendarrDB =
         {
             ["$AccountWide"] = 
             {
-                ["auraCooldown"] = true,
-                ["HideOnDeadTargets"] = false,
-                ["useAccountWide"] = true,
+                ["prominentWhitelist"] = 
+                {
+                },
                 ["raidAuraMode"] = 1,
-                ["showSeconds"] = false,
-                ["combatDisplayOnly"] = false,
-                ["groupBuffWhitelist"] = 
-                {
-                },
                 ["auraFadeTime"] = 2,
-                ["passiveEffectsAsPassive"] = false,
-                ["showCombatEvents"] = false,
-                ["groupWhitelist"] = 
+                ["prominentWhitelist2"] = 
                 {
                 },
-                ["showVerboseDebug"] = false,
+                ["groupAuraMode"] = 1,
+                ["HideOnDeadTargets"] = false,
+                ["lastCharname"] = "Account Wide",
+                ["consolidateEnabled"] = true,
+                ["auraCooldown"] = true,
+                ["debuffWhitelist"] = 
+                {
+                },
+                ["combatDisplayOnly"] = false,
+                ["debuffWhitelist2"] = 
+                {
+                },
+                ["filtersGroup"] = 
+                {
+                    ["groupDuration"] = true,
+                    ["groupDebuffsEnabled"] = false,
+                    ["groupDebuffBlacklist"] = true,
+                    ["groupBlacklist"] = false,
+                    ["groupBuffThreshold"] = 45,
+                    ["groupDebuffDuration"] = true,
+                    ["groupDebuffThreshold"] = 45,
+                    ["groupBuffBlacklist"] = false,
+                    ["groupBuffsEnabled"] = false,
+                    ["groupThreshold"] = 45,
+                    ["groupBuffDuration"] = true,
+                    ["groupBuffOnlyPlayer"] = false,
+                },
                 ["showSSeconds"] = true,
+                ["manualDebug"] = true,
                 ["castBar"] = 
                 {
-                    ["timerShow"] = true,
-                    ["barReverse"] = false,
                     ["nameShow"] = true,
-                    ["timerStyle"] = "soft-shadow-thick",
-                    ["barWidth"] = 255,
-                    ["timerFont"] = "Univers 67",
-                    ["nameStyle"] = "soft-shadow-thick",
-                    ["timerSize"] = 15,
-                    ["nameColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 0.9000000000,
-                        [2] = 0.9000000000,
-                        [3] = 0.9000000000,
-                    },
-                    ["timerColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 0.9000000000,
-                        [2] = 0.9000000000,
-                        [3] = 0.9000000000,
-                    },
-                    ["nameFont"] = "Univers 67",
                     ["barColor"] = 
                     {
                         ["b1"] = 0.5098000000,
@@ -57,7 +55,20 @@ SrendarrDB =
                         ["g1"] = 0.1843000000,
                         ["g2"] = 0.8431000000,
                     },
+                    ["nameSize"] = 15,
                     ["barGloss"] = true,
+                    ["barReverse"] = false,
+                    ["timerSize"] = 15,
+                    ["timerColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 0.9000000000,
+                        [2] = 0.9000000000,
+                        [3] = 0.9000000000,
+                    },
+                    ["timerFont"] = "Univers 67",
+                    ["timerStyle"] = "soft-shadow-thick",
+                    ["nameStyle"] = "soft-shadow-thick",
                     ["base"] = 
                     {
                         ["alpha"] = 1,
@@ -66,24 +77,51 @@ SrendarrDB =
                         ["point"] = 4,
                         ["scale"] = 1,
                     },
+                    ["timerShow"] = true,
+                    ["nameFont"] = "Univers 67",
+                    ["barWidth"] = 255,
                     ["enabled"] = false,
-                    ["nameSize"] = 15,
+                    ["nameColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 0.9000000000,
+                        [2] = 0.9000000000,
+                        [3] = 0.9000000000,
+                    },
                 },
-                ["filtersPlayer"] = 
+                ["hideFullBar"] = false,
+                ["hideOnDeadTargets"] = false,
+                ["showNoNames"] = false,
+                ["filtersTarget"] = 
                 {
-                    ["esoplus"] = true,
-                    ["vampLycanBite"] = false,
                     ["mundusBoon"] = false,
-                    ["block"] = false,
+                    ["onlyPromPlayerDebuffs2"] = false,
                     ["disguise"] = false,
-                    ["cyrodiil"] = false,
+                    ["vampLycanBite"] = false,
+                    ["block"] = false,
+                    ["esoplus"] = true,
                     ["soulSummons"] = false,
+                    ["minorEffects"] = false,
+                    ["majorEffects"] = false,
+                    ["onlyPlayerDebuffs"] = true,
+                    ["onlyPromPlayerDebuffs"] = false,
                     ["vampLycan"] = false,
+                    ["cyrodiil"] = false,
                 },
-                ["showTenths"] = 5,
+                ["useAccountWide"] = true,
+                ["disableSpamControl"] = false,
+                ["frameVersion"] = 1.1200000000,
+                ["shortBuffThreshold"] = 35,
+                ["procModifier"] = false,
+                ["groupWhitelist"] = 
+                {
+                },
+                ["groupDebuffWhitelist"] = 
+                {
+                },
                 ["auraGroups"] = 
                 {
-                    [200] = 11,
+                    [100] = 0,
                     [1] = 1,
                     [2] = 2,
                     [3] = 2,
@@ -91,7 +129,7 @@ SrendarrDB =
                     [5] = 3,
                     [6] = 4,
                     [7] = 1,
-                    [8] = 1,
+                    [200] = 11,
                     [9] = 1,
                     [10] = 5,
                     [11] = 6,
@@ -139,63 +177,43 @@ SrendarrDB =
                     [245] = 56,
                     [246] = 57,
                     [247] = 58,
-                    [201] = 12,
-                    [202] = 13,
-                    [203] = 14,
-                    [104] = 0,
-                    [103] = 0,
-                    [102] = 0,
                     [229] = 40,
-                    [100] = 0,
+                    [102] = 0,
+                    [103] = 0,
+                    [104] = 0,
+                    [203] = 14,
+                    [202] = 13,
+                    [201] = 12,
+                    [8] = 1,
                 },
-                ["prominentWhitelist2"] = 
+                ["showSeconds"] = false,
+                ["blacklist"] = 
                 {
-                },
-                ["filtersGroup"] = 
-                {
-                    ["groupBuffBlacklist"] = false,
-                    ["groupBuffOnlyPlayer"] = false,
-                    ["groupBuffDuration"] = true,
-                    ["groupThreshold"] = 45,
-                    ["groupBlacklist"] = false,
-                    ["groupBuffsEnabled"] = false,
-                    ["groupBuffThreshold"] = 45,
-                    ["groupDebuffThreshold"] = 45,
-                    ["groupDuration"] = true,
-                    ["groupDebuffsEnabled"] = false,
-                    ["groupDebuffDuration"] = true,
-                    ["groupDebuffBlacklist"] = true,
-                },
-                ["version"] = 3,
-                ["groupDebuffWhitelist"] = 
-                {
-                },
-                ["filtersTarget"] = 
-                {
-                    ["esoplus"] = true,
-                    ["disguise"] = false,
-                    ["majorEffects"] = false,
-                    ["onlyPlayerDebuffs"] = true,
-                    ["minorEffects"] = false,
-                    ["vampLycan"] = false,
-                    ["vampLycanBite"] = false,
-                    ["onlyPromPlayerDebuffs"] = false,
-                    ["onlyPromPlayerDebuffs2"] = false,
-                    ["cyrodiil"] = false,
-                    ["mundusBoon"] = false,
-                    ["soulSummons"] = false,
-                    ["block"] = false,
                 },
                 ["displayAbilityID"] = false,
-                ["consolidateEnabled"] = true,
+                ["showCombatEvents"] = false,
+                ["filtersPlayer"] = 
+                {
+                    ["esoplus"] = true,
+                    ["vampLycan"] = false,
+                    ["soulSummons"] = false,
+                    ["block"] = false,
+                    ["mundusBoon"] = false,
+                    ["disguise"] = false,
+                    ["vampLycanBite"] = false,
+                    ["cyrodiil"] = false,
+                },
+                ["passiveEffectsAsPassive"] = false,
+                ["procVolume"] = 100,
+                ["version"] = 3,
+                ["groupBuffWhitelist"] = 
+                {
+                },
+                ["showTenths"] = 5,
                 ["displayFrames"] = 
                 {
                     [1] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = false,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 1,
                         ["barColors"] = 
                         {
@@ -246,26 +264,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = false,
-                        ["timerSize"] = 24,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 30,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 1,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -273,18 +272,10 @@ SrendarrDB =
                             [2] = 0.8745098114,
                             [3] = 0,
                         },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "thick-outline",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -294,17 +285,44 @@ SrendarrDB =
                             ["id"] = 1,
                             ["scale"] = 1.5000000000,
                         },
-                        ["timerStyle"] = "thick-outline",
+                        ["auraPadding"] = 30,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = false,
                         ["barReverse"] = false,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 24,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [2] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = false,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 57",
                         ["auraGrowth"] = 3,
                         ["barColors"] = 
                         {
@@ -355,26 +373,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 18,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 30,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 2,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -382,18 +381,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -403,17 +394,44 @@ SrendarrDB =
                             ["id"] = 2,
                             ["scale"] = 1.5000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 30,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = false,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 18,
+                        ["timerFont"] = "Univers 57",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [3] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 1,
                         ["barColors"] = 
                         {
@@ -464,26 +482,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = false,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 30,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 1,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -491,18 +490,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -512,17 +503,44 @@ SrendarrDB =
                             ["id"] = 3,
                             ["scale"] = 1.5000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 30,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [4] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 2,
                         ["barColors"] = 
                         {
@@ -573,26 +591,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 3,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 1,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -600,18 +599,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -621,17 +612,44 @@ SrendarrDB =
                             ["id"] = 4,
                             ["scale"] = 1,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 3,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = false,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [5] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -682,26 +700,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 2,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -709,18 +708,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -730,17 +721,44 @@ SrendarrDB =
                             ["id"] = 5,
                             ["scale"] = 1,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 4,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [6] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 3,
                         ["barColors"] = 
                         {
@@ -791,26 +809,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 2,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -818,18 +817,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -839,17 +830,44 @@ SrendarrDB =
                             ["id"] = 6,
                             ["scale"] = 1,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 4,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [7] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 3,
                         ["barColors"] = 
                         {
@@ -900,26 +918,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 2,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -927,18 +926,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -948,17 +939,44 @@ SrendarrDB =
                             ["id"] = 7,
                             ["scale"] = 1,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 4,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [8] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -1009,26 +1027,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 2,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1036,18 +1035,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1057,17 +1048,44 @@ SrendarrDB =
                             ["id"] = 8,
                             ["scale"] = 1,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 4,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [9] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 1,
                         ["barColors"] = 
                         {
@@ -1118,26 +1136,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 1,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1145,18 +1144,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1166,17 +1157,44 @@ SrendarrDB =
                             ["id"] = 9,
                             ["scale"] = 0.8000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [10] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 1,
                         ["barColors"] = 
                         {
@@ -1227,26 +1245,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 1,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1254,18 +1253,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1275,17 +1266,44 @@ SrendarrDB =
                             ["id"] = 10,
                             ["scale"] = 0.8000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [11] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -1336,26 +1354,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 12,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 1,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 4,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1363,18 +1362,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 4,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1384,17 +1375,44 @@ SrendarrDB =
                             ["id"] = 11,
                             ["scale"] = 0.6000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 12,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 1,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [12] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -1445,26 +1463,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 11,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 1,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 4,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1472,18 +1471,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 4,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1493,17 +1484,44 @@ SrendarrDB =
                             ["id"] = 12,
                             ["scale"] = 0.4000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 11,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 1,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [13] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -1554,26 +1572,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 12,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 1,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0.6667000000,
-                                ["b1"] = 1,
-                                ["g1"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0.6667000000,
-                                ["b1"] = 1,
-                                ["g1"] = 0,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 5,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1581,18 +1580,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 5,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1602,17 +1593,44 @@ SrendarrDB =
                             ["id"] = 11,
                             ["scale"] = 0.6000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 12,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0.6667000000,
+                                ["b1"] = 1,
+                                ["g1"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0.6667000000,
+                                ["b1"] = 1,
+                                ["g1"] = 0,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 1,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                     [14] = 
                     {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
                         ["auraGrowth"] = 4,
                         ["barColors"] = 
                         {
@@ -1663,26 +1681,7 @@ SrendarrDB =
                             },
                         },
                         ["barGloss"] = true,
-                        ["timerSize"] = 11,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 1,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0.6667000000,
-                                ["b1"] = 1,
-                                ["g1"] = 0,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0.6667000000,
-                                ["b1"] = 1,
-                                ["g1"] = 0,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
+                        ["style"] = 5,
                         ["timerColor"] = 
                         {
                             [4] = 1,
@@ -1690,18 +1689,10 @@ SrendarrDB =
                             [2] = 0.9000000000,
                             [3] = 0.9000000000,
                         },
-                        ["style"] = 5,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
                         ["nameSize"] = 16,
-                        ["auraSort"] = 2,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
                         ["base"] = 
                         {
                             ["alpha"] = 1,
@@ -1711,77 +1702,78 @@ SrendarrDB =
                             ["id"] = 12,
                             ["scale"] = 0.4000000000,
                         },
-                        ["timerStyle"] = "soft-shadow-thick",
+                        ["auraPadding"] = 2,
                         ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
                         ["barReverse"] = true,
-                        ["hideFullBar"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 11,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0.6667000000,
+                                ["b1"] = 1,
+                                ["g1"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0.6667000000,
+                                ["b1"] = 1,
+                                ["g1"] = 0,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 1,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
                     },
                 },
-                ["lastCharname"] = "Account Wide",
-                ["manualDebug"] = true,
-                ["debuffWhitelist"] = 
-                {
-                },
-                ["procModifier"] = false,
-                ["debuffWhitelist2"] = 
-                {
-                },
-                ["groupAuraMode"] = 1,
-                ["prominentWhitelist"] = 
-                {
-                },
                 ["procPlaySound"] = "Srendarr Ability Proc",
-                ["showNoNames"] = false,
                 ["procEnableAnims"] = true,
-                ["blacklist"] = 
-                {
-                },
-                ["disableSpamControl"] = false,
-                ["shortBuffThreshold"] = 35,
-                ["frameVersion"] = 1.1200000000,
-                ["procVolume"] = 100,
-                ["hideOnDeadTargets"] = false,
-                ["hideFullBar"] = false,
+                ["showVerboseDebug"] = false,
             },
             ["8796093053805013"] = 
             {
-                ["auraCooldown"] = true,
-                ["HideOnDeadTargets"] = false,
-                ["showSeconds"] = false,
-                ["combatDisplayOnly"] = false,
-                ["auraFadeTime"] = 2,
-                ["version"] = 3,
-                ["showCombatEvents"] = false,
-                ["groupWhitelist"] = 
+                ["prominentWhitelist"] = 
                 {
                 },
-                ["showVerboseDebug"] = false,
+                ["auraFadeTime"] = 2,
+                ["prominentWhitelist2"] = 
+                {
+                },
+                ["HideOnDeadTargets"] = false,
+                ["lastCharname"] = "Putrefacta",
+                ["consolidateEnabled"] = true,
+                ["auraCooldown"] = true,
+                ["debuffWhitelist"] = 
+                {
+                },
+                ["combatDisplayOnly"] = false,
+                ["debuffWhitelist2"] = 
+                {
+                },
+                ["filtersGroup"] = 
+                {
+                    ["groupThreshold"] = 45,
+                    ["groupDuration"] = true,
+                    ["groupBlacklist"] = false,
+                },
                 ["showSSeconds"] = true,
+                ["manualDebug"] = true,
                 ["castBar"] = 
                 {
-                    ["timerShow"] = true,
-                    ["barReverse"] = false,
                     ["nameShow"] = true,
-                    ["timerStyle"] = "soft-shadow-thick",
-                    ["barWidth"] = 255,
-                    ["timerFont"] = "Univers 67",
-                    ["nameStyle"] = "soft-shadow-thick",
-                    ["timerSize"] = 15,
-                    ["nameColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 0.9000000000,
-                        [2] = 0.9000000000,
-                        [3] = 0.9000000000,
-                    },
-                    ["timerColor"] = 
-                    {
-                        [4] = 1,
-                        [1] = 0.9000000000,
-                        [2] = 0.9000000000,
-                        [3] = 0.9000000000,
-                    },
-                    ["nameFont"] = "Univers 67",
                     ["barColor"] = 
                     {
                         ["b1"] = 0.5098000000,
@@ -1791,7 +1783,20 @@ SrendarrDB =
                         ["g1"] = 0.1843000000,
                         ["g2"] = 0.8431000000,
                     },
+                    ["nameSize"] = 15,
                     ["barGloss"] = true,
+                    ["barReverse"] = false,
+                    ["timerSize"] = 15,
+                    ["timerColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 0.9000000000,
+                        [2] = 0.9000000000,
+                        [3] = 0.9000000000,
+                    },
+                    ["timerFont"] = "Univers 67",
+                    ["timerStyle"] = "soft-shadow-thick",
+                    ["nameStyle"] = "soft-shadow-thick",
                     ["base"] = 
                     {
                         ["alpha"] = 1,
@@ -1800,1361 +1805,41 @@ SrendarrDB =
                         ["point"] = 4,
                         ["scale"] = 1,
                     },
+                    ["timerShow"] = true,
+                    ["nameFont"] = "Univers 67",
+                    ["barWidth"] = 255,
                     ["enabled"] = true,
-                    ["nameSize"] = 15,
-                },
-                ["filtersPlayer"] = 
-                {
-                    ["esoplus"] = true,
-                    ["vampLycanBite"] = false,
-                    ["mundusBoon"] = false,
-                    ["block"] = false,
-                    ["disguise"] = false,
-                    ["cyrodiil"] = false,
-                    ["soulSummons"] = false,
-                    ["vampLycan"] = false,
-                },
-                ["showTenths"] = 5,
-                ["prominentWhitelist2"] = 
-                {
-                },
-                ["filtersGroup"] = 
-                {
-                    ["groupBlacklist"] = false,
-                    ["groupDuration"] = true,
-                    ["groupThreshold"] = 45,
+                    ["nameColor"] = 
+                    {
+                        [4] = 1,
+                        [1] = 0.9000000000,
+                        [2] = 0.9000000000,
+                        [3] = 0.9000000000,
+                    },
                 },
                 ["filtersTarget"] = 
                 {
-                    ["esoplus"] = true,
+                    ["mundusBoon"] = false,
+                    ["onlyPromPlayerDebuffs2"] = false,
                     ["disguise"] = false,
+                    ["vampLycanBite"] = false,
+                    ["block"] = false,
+                    ["esoplus"] = true,
+                    ["soulSummons"] = false,
+                    ["minorEffects"] = false,
                     ["majorEffects"] = false,
                     ["onlyPlayerDebuffs"] = true,
-                    ["minorEffects"] = false,
-                    ["vampLycan"] = false,
-                    ["vampLycanBite"] = false,
                     ["onlyPromPlayerDebuffs"] = false,
-                    ["onlyPromPlayerDebuffs2"] = false,
+                    ["vampLycan"] = false,
                     ["cyrodiil"] = false,
-                    ["mundusBoon"] = false,
-                    ["soulSummons"] = false,
-                    ["block"] = false,
                 },
-                ["displayAbilityID"] = false,
-                ["consolidateEnabled"] = true,
-                ["displayFrames"] = 
+                ["disableSpamControl"] = false,
+                ["hideFullBar"] = false,
+                ["frameVersion"] = 1.1200000000,
+                ["groupWhitelist"] = 
                 {
-                    [1] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 1,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 12,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 3,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 12,
-                            ["id"] = 1,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [2] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 1,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 3,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = -210,
-                            ["y"] = 0,
-                            ["point"] = 12,
-                            ["id"] = 2,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [3] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 2,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 3,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 9,
-                            ["id"] = 3,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [4] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 2,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 3,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 3,
-                            ["id"] = 4,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = false,
-                        ["hideFullBar"] = false,
-                    },
-                    [5] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 4,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 220,
-                            ["y"] = 88,
-                            ["point"] = 1,
-                            ["id"] = 5,
-                            ["scale"] = 0.8000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [6] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 1,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = -220,
-                            ["y"] = 88,
-                            ["point"] = 1,
-                            ["id"] = 6,
-                            ["scale"] = 0.8000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [7] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 3,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 500,
-                            ["y"] = 0,
-                            ["point"] = 3,
-                            ["id"] = 7,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [8] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 4,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 4,
-                        ["timerLocation"] = 4,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 2,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = -500,
-                            ["y"] = 0,
-                            ["point"] = 9,
-                            ["id"] = 8,
-                            ["scale"] = 1,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [9] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 1,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = -220,
-                            ["y"] = 88,
-                            ["point"] = 1,
-                            ["id"] = 9,
-                            ["scale"] = 0.8000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [10] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 1,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 14,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 1,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = -220,
-                            ["y"] = 88,
-                            ["point"] = 1,
-                            ["id"] = 10,
-                            ["scale"] = 0.8000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [11] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 4,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 12,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 3,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 4,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 3,
-                            ["id"] = 11,
-                            ["scale"] = 0.6000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
-                    [12] = 
-                    {
-                        ["timerHMS"] = true,
-                        ["auraCooldown"] = true,
-                        ["barWidth"] = 160,
-                        ["timerFont"] = "Univers 67",
-                        ["auraGrowth"] = 4,
-                        ["barColors"] = 
-                        {
-                            [1] = 
-                            {
-                                ["b1"] = 0.5098000000,
-                                ["r2"] = 0.3215000000,
-                                ["r1"] = 0,
-                                ["b2"] = 1,
-                                ["g1"] = 0.1843000000,
-                                ["g2"] = 0.8431000000,
-                            },
-                            [2] = 
-                            {
-                                ["b1"] = 0.1137000000,
-                                ["r2"] = 0.9725000000,
-                                ["r1"] = 0.7764000000,
-                                ["b2"] = 0.2941000000,
-                                ["g1"] = 0.6000000000,
-                                ["g2"] = 0.8745000000,
-                            },
-                            [3] = 
-                            {
-                                ["b1"] = 0.2313000000,
-                                ["r2"] = 0.4196000000,
-                                ["r1"] = 0.4196000000,
-                                ["b2"] = 0.2313000000,
-                                ["g1"] = 0.3803000000,
-                                ["g2"] = 0.3803000000,
-                            },
-                            [4] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                            [5] = 
-                            {
-                                ["b1"] = 0.1843000000,
-                                ["r2"] = 1,
-                                ["r1"] = 0.5098000000,
-                                ["b2"] = 0.8431000000,
-                                ["g1"] = 0,
-                                ["g2"] = 0,
-                            },
-                        },
-                        ["barGloss"] = true,
-                        ["timerSize"] = 11,
-                        ["enableTooltips"] = false,
-                        ["auraPadding"] = 2,
-                        ["timerLocation"] = 2,
-                        ["cooldownColors"] = 
-                        {
-                            [5] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                            [1] = 
-                            {
-                                ["r1"] = 0,
-                                ["b1"] = 0,
-                                ["g1"] = 1,
-                            },
-                        },
-                        ["auraClassOverride"] = 3,
-                        ["timerColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["style"] = 4,
-                        ["nameStyle"] = "soft-shadow-thick",
-                        ["highlightToggled"] = true,
-                        ["nameColor"] = 
-                        {
-                            [4] = 1,
-                            [1] = 0.9000000000,
-                            [2] = 0.9000000000,
-                            [3] = 0.9000000000,
-                        },
-                        ["nameSize"] = 16,
-                        ["auraSort"] = 2,
-                        ["base"] = 
-                        {
-                            ["alpha"] = 1,
-                            ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 3,
-                            ["id"] = 12,
-                            ["scale"] = 0.4000000000,
-                        },
-                        ["timerStyle"] = "soft-shadow-thick",
-                        ["nameFont"] = "Univers 67",
-                        ["barReverse"] = true,
-                        ["hideFullBar"] = false,
-                    },
                 },
-                ["lastCharname"] = "Putrefacta",
-                ["manualDebug"] = true,
+                ["showTenths"] = 5,
                 ["auraGroups"] = 
                 {
                     [1] = 1,
@@ -3193,32 +1878,1347 @@ SrendarrDB =
                     [102] = 0,
                     [103] = 0,
                     [104] = 0,
-                    [203] = 14,
-                    [202] = 13,
-                    [201] = 12,
                     [200] = 11,
+                    [201] = 12,
+                    [202] = 13,
+                    [203] = 14,
                 },
-                ["debuffWhitelist2"] = 
-                {
-                },
-                ["passiveEffectsAsPassive"] = false,
-                ["procEnableAnims"] = true,
-                ["procPlaySound"] = "Srendarr Ability Proc",
-                ["showNoNames"] = false,
-                ["frameVersion"] = 1.1200000000,
+                ["showSeconds"] = false,
+                ["shortBuffThreshold"] = 35,
+                ["displayAbilityID"] = false,
+                ["showCombatEvents"] = false,
                 ["blacklist"] = 
                 {
                 },
-                ["disableSpamControl"] = false,
-                ["debuffWhitelist"] = 
-                {
-                },
-                ["prominentWhitelist"] = 
-                {
-                },
-                ["shortBuffThreshold"] = 35,
+                ["passiveEffectsAsPassive"] = false,
+                ["showNoNames"] = false,
+                ["version"] = 3,
                 ["hideOnDeadTargets"] = false,
-                ["hideFullBar"] = false,
+                ["filtersPlayer"] = 
+                {
+                    ["esoplus"] = true,
+                    ["vampLycan"] = false,
+                    ["soulSummons"] = false,
+                    ["block"] = false,
+                    ["mundusBoon"] = false,
+                    ["disguise"] = false,
+                    ["vampLycanBite"] = false,
+                    ["cyrodiil"] = false,
+                },
+                ["displayFrames"] = 
+                {
+                    [1] = 
+                    {
+                        ["auraGrowth"] = 1,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 0,
+                            ["y"] = 0,
+                            ["point"] = 12,
+                            ["id"] = 1,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 3,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 12,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [2] = 
+                    {
+                        ["auraGrowth"] = 1,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = -210,
+                            ["y"] = 0,
+                            ["point"] = 12,
+                            ["id"] = 2,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 3,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [3] = 
+                    {
+                        ["auraGrowth"] = 2,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 0,
+                            ["y"] = 0,
+                            ["point"] = 9,
+                            ["id"] = 3,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 3,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [4] = 
+                    {
+                        ["auraGrowth"] = 2,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 0,
+                            ["y"] = 0,
+                            ["point"] = 3,
+                            ["id"] = 4,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 3,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = false,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [5] = 
+                    {
+                        ["auraGrowth"] = 4,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 2,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 220,
+                            ["y"] = 88,
+                            ["point"] = 1,
+                            ["id"] = 5,
+                            ["scale"] = 0.8000000000,
+                        },
+                        ["auraPadding"] = 4,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [6] = 
+                    {
+                        ["auraGrowth"] = 1,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = -220,
+                            ["y"] = 88,
+                            ["point"] = 1,
+                            ["id"] = 6,
+                            ["scale"] = 0.8000000000,
+                        },
+                        ["auraPadding"] = 2,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [7] = 
+                    {
+                        ["auraGrowth"] = 3,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 2,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 500,
+                            ["y"] = 0,
+                            ["point"] = 3,
+                            ["id"] = 7,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 4,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [8] = 
+                    {
+                        ["auraGrowth"] = 4,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 2,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = -500,
+                            ["y"] = 0,
+                            ["point"] = 9,
+                            ["id"] = 8,
+                            ["scale"] = 1,
+                        },
+                        ["auraPadding"] = 4,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 4,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [9] = 
+                    {
+                        ["auraGrowth"] = 1,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = -220,
+                            ["y"] = 88,
+                            ["point"] = 1,
+                            ["id"] = 9,
+                            ["scale"] = 0.8000000000,
+                        },
+                        ["auraPadding"] = 2,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [10] = 
+                    {
+                        ["auraGrowth"] = 1,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 1,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = -220,
+                            ["y"] = 88,
+                            ["point"] = 1,
+                            ["id"] = 10,
+                            ["scale"] = 0.8000000000,
+                        },
+                        ["auraPadding"] = 2,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 14,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [11] = 
+                    {
+                        ["auraGrowth"] = 4,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 4,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 0,
+                            ["y"] = 0,
+                            ["point"] = 3,
+                            ["id"] = 11,
+                            ["scale"] = 0.6000000000,
+                        },
+                        ["auraPadding"] = 2,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 12,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 3,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                    [12] = 
+                    {
+                        ["auraGrowth"] = 4,
+                        ["barColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["b1"] = 0.5098000000,
+                                ["r2"] = 0.3215000000,
+                                ["r1"] = 0,
+                                ["b2"] = 1,
+                                ["g1"] = 0.1843000000,
+                                ["g2"] = 0.8431000000,
+                            },
+                            [2] = 
+                            {
+                                ["b1"] = 0.1137000000,
+                                ["r2"] = 0.9725000000,
+                                ["r1"] = 0.7764000000,
+                                ["b2"] = 0.2941000000,
+                                ["g1"] = 0.6000000000,
+                                ["g2"] = 0.8745000000,
+                            },
+                            [3] = 
+                            {
+                                ["b1"] = 0.2313000000,
+                                ["r2"] = 0.4196000000,
+                                ["r1"] = 0.4196000000,
+                                ["b2"] = 0.2313000000,
+                                ["g1"] = 0.3803000000,
+                                ["g2"] = 0.3803000000,
+                            },
+                            [4] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                            [5] = 
+                            {
+                                ["b1"] = 0.1843000000,
+                                ["r2"] = 1,
+                                ["r1"] = 0.5098000000,
+                                ["b2"] = 0.8431000000,
+                                ["g1"] = 0,
+                                ["g2"] = 0,
+                            },
+                        },
+                        ["barGloss"] = true,
+                        ["style"] = 4,
+                        ["timerColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                        ["nameSize"] = 16,
+                        ["timerStyle"] = "soft-shadow-thick",
+                        ["timerHMS"] = true,
+                        ["hideFullBar"] = false,
+                        ["base"] = 
+                        {
+                            ["alpha"] = 1,
+                            ["x"] = 0,
+                            ["y"] = 0,
+                            ["point"] = 3,
+                            ["id"] = 12,
+                            ["scale"] = 0.4000000000,
+                        },
+                        ["auraPadding"] = 2,
+                        ["nameFont"] = "Univers 67",
+                        ["auraCooldown"] = true,
+                        ["barReverse"] = true,
+                        ["auraClassOverride"] = 3,
+                        ["timerSize"] = 11,
+                        ["timerFont"] = "Univers 67",
+                        ["highlightToggled"] = true,
+                        ["enableTooltips"] = false,
+                        ["nameStyle"] = "soft-shadow-thick",
+                        ["cooldownColors"] = 
+                        {
+                            [1] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                            [5] = 
+                            {
+                                ["r1"] = 0,
+                                ["b1"] = 0,
+                                ["g1"] = 1,
+                            },
+                        },
+                        ["auraSort"] = 2,
+                        ["barWidth"] = 160,
+                        ["timerLocation"] = 2,
+                        ["nameColor"] = 
+                        {
+                            [4] = 1,
+                            [1] = 0.9000000000,
+                            [2] = 0.9000000000,
+                            [3] = 0.9000000000,
+                        },
+                    },
+                },
+                ["procPlaySound"] = "Srendarr Ability Proc",
+                ["procEnableAnims"] = true,
+                ["showVerboseDebug"] = false,
             },
         },
     },

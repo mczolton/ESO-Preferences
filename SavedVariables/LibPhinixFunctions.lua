@@ -8,8 +8,8 @@ LibPhinixFunctions_Data =
             {
                 ["AccountSettings"] = 
                 {
-                    ["enableDebug"] = false,
                     ["version"] = 1,
+                    ["enableDebug"] = false,
                 },
             },
         },

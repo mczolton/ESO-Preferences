@@ -2,13 +2,6 @@ HarvestDLC_SavedVars =
 {
     [849] = 
     {
-        ["vvardenfell/sadrithmora_base"] = 
-        {
-            [13] = 
-            {
-                [1] = "3779.8,3513.6,110.8,1620078591,60309044,0.0,0.0,0",
-            },
-        },
         ["vvardenfell/vvardenfell_base"] = 
         {
             [1] = 
@@ -956,6 +949,13 @@ HarvestDLC_SavedVars =
                 [22] = "3148.9,2694.2,118.7,1622843109,70005044,0.0,0.0,0",
             },
         },
+        ["vvardenfell/sadrithmora_base"] = 
+        {
+            [13] = 
+            {
+                [1] = "3779.8,3513.6,110.8,1620078591,60309044,0.0,0.0,0",
+            },
+        },
     },
     [980] = 
     {
@@ -976,20 +976,30 @@ HarvestDLC_SavedVars =
             },
         },
     },
-    [918] = 
+    [981] = 
     {
-        ["vvardenfell/nchuleftingth1_base"] = 
+        ["clockwork/brassfortress_base"] = 
         {
-            [13] = 
+            [4] = 
             {
-                [1] = "111.1,82.7,156.6,1621813634,60309044,0.0,0.0,0",
+                [1] = "431.4,787.9,393.7,1623104636,70005044,0.0,0.0,0",
             },
         },
+    },
+    [918] = 
+    {
         ["vvardenfell/nchuleftingth5_base"] = 
         {
             [9] = 
             {
                 [1] = "819.5,430.5,129.3,1621892933,60309044,0.0,0.0,0",
+            },
+        },
+        ["vvardenfell/nchuleftingth1_base"] = 
+        {
+            [13] = 
+            {
+                [1] = "111.1,82.7,156.6,1621813634,60309044,0.0,0.0,0",
             },
         },
         ["vvardenfell/nchuleftingth3_base"] = 
@@ -1050,6 +1060,7 @@ HarvestDLC_SavedVars =
             },
         },
     },
+    ["dataVersion"] = 17,
     [823] = 
     {
         ["darkbrotherhood/anvilcity_base"] = 
@@ -1205,5 +1216,4 @@ HarvestDLC_SavedVars =
             },
         },
     },
-    ["dataVersion"] = 17,
 }
