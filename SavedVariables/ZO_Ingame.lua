@@ -6,6 +6,11 @@ ZO_Ingame_SavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["GamepadInventory"] = 
+                {
+                    ["version"] = 2,
+                    ["useStatComparisonTooltip"] = true,
+                },
                 ["ZO_HousingEditor_Options"] = 
                 {
                     ["version"] = 1,
@@ -14,57 +19,40 @@ ZO_Ingame_SavedVariables =
                 },
                 ["NameChange"] = 
                 {
-                    ["8796093045385501"] = "S'tabby Cat",
                     ["version"] = 1,
                     ["8796093040232063"] = "Phillip Son of Coul",
                     ["8796093053805013"] = "Putrefacta",
-                },
-                ["ZO_GuildRecruitment_ResponseMessage"] = 
-                {
-                    ["guildResponseTexts"] = 
-                    {
-                    },
-                    ["version"] = 1,
-                },
-                ["GuildMotD"] = 
-                {
-                    ["LORECASTERS"] = 1430715561,
-                    ["version"] = 1,
-                    ["The Loreseekers"] = 2725221760,
-                    ["Golden Fuzzy Dragons"] = 3136709212,
-                    ["Castelo de Grayskull"] = 1908405932,
-                    ["Fahrenheit CDLI"] = 3389419664,
-                },
-                ["GamepadInventory"] = 
-                {
-                    ["useStatComparisonTooltip"] = true,
-                    ["version"] = 2,
+                    ["8796093045385501"] = "S'tabby Cat",
                 },
                 ["ZO_GuildBrowser_ApplicationMessage"] = 
                 {
+                    ["applicationText"] = "",
                     ["reportedGuilds"] = 
                     {
                     },
                     ["version"] = 1,
-                    ["applicationText"] = "",
+                },
+                ["ZO_GuildRecruitment_ResponseMessage"] = 
+                {
+                    ["version"] = 1,
+                    ["guildResponseTexts"] = 
+                    {
+                    },
+                },
+                ["GuildMotD"] = 
+                {
+                    ["Fahrenheit CDLI"] = 3389419664,
+                    ["Golden Fuzzy Dragons"] = 3136709212,
+                    ["version"] = 1,
+                    ["LORECASTERS"] = 1430715561,
+                    ["Castelo de Grayskull"] = 1908405932,
+                    ["The Loreseekers"] = 2203790957,
                 },
             },
             ["S'tabby Cat"] = 
             {
-                ["ZO_ItemSetCollectionsDataManager"] = 
-                {
-                    ["showLocked"] = true,
-                    ["version"] = 1,
-                    ["equipmentFilterTypes"] = 
-                    {
-                    },
-                    ["equipmentFiltersTypes"] = 
-                    {
-                    },
-                },
                 ["Chat"] = 
                 {
-                    ["version"] = 4,
                     ["containers"] = 
                     {
                         [1] = 
@@ -77,23 +65,29 @@ ZO_Ingame_SavedVariables =
                             ["point"] = 6,
                         },
                     },
+                    ["version"] = 4,
                 },
-                ["GamepadSmithingExtraction"] = 
+                ["AutoComplete"] = 
+                {
+                    ["version"] = 3,
+                    ["RecentInteractions"] = 
+                    {
+                        ["Bantam Guar"] = 1550970263,
+                    },
+                },
+                ["GamepadAlchemyCreation"] = 
                 {
                     ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
+                    ["shouldFilterQuests"] = false,
                 },
                 ["WorldMap"] = 
                 {
                     [1] = 
                     {
-                        ["x"] = 0,
+                        ["point"] = 128,
                         ["width"] = 488,
                         ["mapSize"] = 2,
-                        ["keepSquare"] = true,
-                        ["y"] = 0,
-                        ["relPoint"] = 128,
-                        ["point"] = 128,
+                        ["height"] = 550,
                         ["filters"] = 
                         {
                             [4] = 
@@ -112,11 +106,13 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["height"] = 550,
+                        ["y"] = 0,
+                        ["relPoint"] = 128,
+                        ["keepSquare"] = true,
+                        ["x"] = 0,
                     },
                     [2] = 
                     {
-                        ["mapSize"] = 1,
                         ["filters"] = 
                         {
                             [4] = 
@@ -135,9 +131,12 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
+                        ["mapSize"] = 1,
                     },
                     [3] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -151,7 +150,6 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -159,12 +157,10 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [4] = 
                     {
                         ["mapSize"] = 1,
-                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [4] = 
@@ -175,17 +171,20 @@ ZO_Ingame_SavedVariables =
                             },
                             [2] = 
                             {
-                                [3] = false,
-                                [2] = false,
                                 [11] = 1,
+                                [2] = false,
+                                [3] = false,
                             },
                             [3] = 
                             {
                             },
                         },
+                        ["allowHistory"] = false,
                     },
                     [5] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [4] = 
@@ -203,7 +202,6 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -211,10 +209,11 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [6] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -228,7 +227,6 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -236,12 +234,320 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [7] = 
                     {
                         ["mapSize"] = 1,
+                        ["filters"] = 
+                        {
+                            [4] = 
+                            {
+                            },
+                            [1] = 
+                            {
+                                [1] = false,
+                            },
+                            [2] = 
+                            {
+                                [11] = 1,
+                                [1] = false,
+                                [2] = false,
+                                [3] = false,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
                         ["allowHistory"] = false,
+                    },
+                    ["version"] = 4,
+                    ["userMode"] = 2,
+                },
+                ["EnchantingCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["Provisioner"] = 
+                {
+                    ["haveIngredientsChecked"] = true,
+                    ["version"] = 2,
+                    ["haveSkillsChecked"] = true,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["GamepadProvisioner"] = 
+                {
+                    ["haveIngredientsChecked"] = false,
+                    ["version"] = 3,
+                    ["haveSkillsChecked"] = false,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["GamepadEnchantingCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["shouldFilterQuests"] = false,
+                },
+                ["SmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = true,
+                    ["version"] = 3,
+                    ["useUniversalStyleItemChecked"] = false,
+                    ["haveMaterialChecked"] = false,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["SmithingResearch"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["OutfitSlots"] = 
+                {
+                    ["version"] = 1,
+                    ["showLockedStyles"] = true,
+                },
+                ["ZO_ItemSetCollectionsDataManager"] = 
+                {
+                    ["equipmentFilterTypes"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["showLocked"] = true,
+                    ["equipmentFiltersTypes"] = 
+                    {
+                    },
+                },
+                ["Dyeing"] = 
+                {
+                    ["version"] = 1,
+                    ["sortStyle"] = 1,
+                    ["showLocked"] = true,
+                },
+                ["GamepadSmithingExtraction"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["SmithingExtraction"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["DeathRecap"] = 
+                {
+                    ["version"] = 1,
+                    ["recapOn"] = true,
+                },
+                ["PerformanceMeters"] = 
+                {
+                    ["point"] = 6,
+                    ["y"] = 20,
+                    ["version"] = 1,
+                    ["x"] = -20,
+                    ["relPoint"] = 6,
+                },
+                ["TradingHouseSearchHistory"] = 
+                {
+                    ["version"] = 2,
+                    ["nextSearchOrderId"] = 0,
+                    ["searchEntries"] = 
+                    {
+                    },
+                },
+                ["AlchemyCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["questsOnlyChecked"] = false,
+                },
+            },
+            ["Phillip Son of Coul"] = 
+            {
+                ["Chat"] = 
+                {
+                    ["containers"] = 
+                    {
+                        [1] = 
+                        {
+                            ["height"] = 267,
+                            ["x"] = 0,
+                            ["width"] = 445,
+                            ["relPoint"] = 6,
+                            ["y"] = -82,
+                            ["point"] = 6,
+                        },
+                    },
+                    ["version"] = 4,
+                },
+                ["AutoComplete"] = 
+                {
+                    ["version"] = 3,
+                    ["RecentInteractions"] = 
+                    {
+                        ["Bantam Guar"] = 1550969674,
+                    },
+                },
+                ["GamepadAlchemyCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["shouldFilterQuests"] = false,
+                },
+                ["WorldMap"] = 
+                {
+                    [1] = 
+                    {
+                        ["point"] = 128,
+                        ["width"] = 488,
+                        ["mapSize"] = 2,
+                        ["height"] = 550,
+                        ["filters"] = 
+                        {
+                            [4] = 
+                            {
+                            },
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [1] = false,
+                                [6] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                        ["y"] = 0,
+                        ["relPoint"] = 128,
+                        ["keepSquare"] = true,
+                        ["x"] = 0,
+                    },
+                    [2] = 
+                    {
+                        ["filters"] = 
+                        {
+                            [4] = 
+                            {
+                            },
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [1] = false,
+                                [6] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                        ["mapSize"] = 1,
+                    },
+                    [3] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [2] = 
+                            {
+                                [8] = false,
+                                [1] = false,
+                                [3] = false,
+                                [4] = false,
+                                [5] = false,
+                                [11] = 1,
+                                [7] = false,
+                            },
+                        },
+                        ["disabledStickyPins"] = 
+                        {
+                            [2] = 
+                            {
+                                [5] = true,
+                            },
+                        },
+                    },
+                    [4] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["filters"] = 
+                        {
+                            [4] = 
+                            {
+                            },
+                            [1] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [3] = false,
+                                [2] = false,
+                                [11] = 1,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                        ["allowHistory"] = false,
+                    },
+                    [5] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [4] = 
+                            {
+                            },
+                            [2] = 
+                            {
+                                [8] = false,
+                                [1] = false,
+                                [11] = 1,
+                                [5] = false,
+                                [3] = false,
+                            },
+                            [3] = 
+                            {
+                            },
+                        },
+                        ["disabledStickyPins"] = 
+                        {
+                            [2] = 
+                            {
+                                [5] = true,
+                            },
+                        },
+                    },
+                    [6] = 
+                    {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
+                        ["filters"] = 
+                        {
+                            [2] = 
+                            {
+                                [8] = false,
+                                [1] = false,
+                                [10] = false,
+                                [3] = false,
+                                [4] = false,
+                                [5] = false,
+                                [7] = false,
+                            },
+                        },
+                        ["disabledStickyPins"] = 
+                        {
+                            [2] = 
+                            {
+                                [5] = true,
+                            },
+                        },
+                    },
+                    [7] = 
+                    {
+                        ["mapSize"] = 1,
                         ["filters"] = 
                         {
                             [4] = 
@@ -262,119 +568,111 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
+                        ["allowHistory"] = false,
                     },
                     ["version"] = 4,
                     ["userMode"] = 2,
                 },
-                ["DeathRecap"] = 
+                ["EnchantingCreation"] = 
                 {
                     ["version"] = 1,
-                    ["recapOn"] = true,
+                    ["questsOnlyChecked"] = false,
                 },
                 ["Provisioner"] = 
                 {
-                    ["version"] = 2,
                     ["haveIngredientsChecked"] = true,
-                    ["questsOnlyChecked"] = false,
+                    ["version"] = 2,
                     ["haveSkillsChecked"] = true,
+                    ["questsOnlyChecked"] = false,
                 },
-                ["Dyeing"] = 
+                ["GamepadProvisioner"] = 
                 {
-                    ["showLocked"] = true,
-                    ["version"] = 1,
-                    ["sortStyle"] = 1,
+                    ["haveIngredientsChecked"] = false,
+                    ["version"] = 3,
+                    ["haveSkillsChecked"] = false,
+                    ["questsOnlyChecked"] = false,
                 },
                 ["GamepadEnchantingCreation"] = 
                 {
                     ["version"] = 1,
                     ["shouldFilterQuests"] = false,
                 },
-                ["SmithingExtraction"] = 
-                {
-                    ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
-                },
-                ["EnchantingCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["AutoComplete"] = 
-                {
-                    ["RecentInteractions"] = 
-                    {
-                        ["Bantam Guar"] = 1550970263,
-                    },
-                    ["version"] = 3,
-                },
-                ["AlchemyCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["PerformanceMeters"] = 
-                {
-                    ["version"] = 1,
-                    ["x"] = -20,
-                    ["y"] = 20,
-                    ["relPoint"] = 6,
-                    ["point"] = 6,
-                },
-                ["OutfitSlots"] = 
-                {
-                    ["showLockedStyles"] = true,
-                    ["version"] = 1,
-                },
                 ["SmithingCreation"] = 
                 {
-                    ["haveMaterialChecked"] = false,
-                    ["version"] = 3,
                     ["haveKnowledgeChecked"] = true,
-                    ["questsOnlyChecked"] = false,
-                    ["useUniversalStyleItemChecked"] = false,
-                },
-                ["GamepadAlchemyCreation"] = 
-                {
-                    ["version"] = 1,
-                    ["shouldFilterQuests"] = false,
-                },
-                ["GamepadProvisioner"] = 
-                {
                     ["version"] = 3,
-                    ["haveIngredientsChecked"] = false,
+                    ["useUniversalStyleItemChecked"] = false,
+                    ["haveMaterialChecked"] = false,
                     ["questsOnlyChecked"] = false,
-                    ["haveSkillsChecked"] = false,
-                },
-                ["TradingHouseSearchHistory"] = 
-                {
-                    ["nextSearchOrderId"] = 0,
-                    ["version"] = 2,
-                    ["searchEntries"] = 
-                    {
-                    },
                 },
                 ["SmithingResearch"] = 
                 {
                     ["version"] = 1,
                     ["includeBankedItemsChecked"] = true,
                 },
-            },
-            ["Putrefacta"] = 
-            {
+                ["OutfitSlots"] = 
+                {
+                    ["version"] = 1,
+                    ["showLockedStyles"] = true,
+                },
                 ["ZO_ItemSetCollectionsDataManager"] = 
                 {
-                    ["showLocked"] = true,
-                    ["version"] = 1,
                     ["equipmentFilterTypes"] = 
                     {
                     },
+                    ["version"] = 1,
+                    ["showLocked"] = true,
                     ["equipmentFiltersTypes"] = 
                     {
                     },
                 },
+                ["Dyeing"] = 
+                {
+                    ["version"] = 1,
+                    ["sortStyle"] = 1,
+                    ["showLocked"] = true,
+                },
+                ["GamepadSmithingExtraction"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["SmithingExtraction"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["DeathRecap"] = 
+                {
+                    ["version"] = 1,
+                    ["recapOn"] = true,
+                },
+                ["PerformanceMeters"] = 
+                {
+                    ["point"] = 6,
+                    ["y"] = 20,
+                    ["version"] = 1,
+                    ["x"] = -20,
+                    ["relPoint"] = 6,
+                },
+                ["TradingHouseSearchHistory"] = 
+                {
+                    ["version"] = 2,
+                    ["nextSearchOrderId"] = 0,
+                    ["searchEntries"] = 
+                    {
+                    },
+                },
+                ["AlchemyCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["questsOnlyChecked"] = false,
+                },
+            },
+            ["Putrefacta"] = 
+            {
                 ["Chat"] = 
                 {
-                    ["version"] = 4,
                     ["containers"] = 
                     {
                         [1] = 
@@ -387,119 +685,61 @@ ZO_Ingame_SavedVariables =
                             ["point"] = 6,
                         },
                     },
+                    ["version"] = 4,
                 },
-                ["GamepadSmithingExtraction"] = 
+                ["AutoComplete"] = 
                 {
-                    ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
+                    ["version"] = 3,
+                    ["RecentInteractions"] = 
+                    {
+                        ["Burz gro-Stanza"] = 1622936321,
+                        ["Eydill'a"] = 1622152349,
+                        ["Litna Cheshire"] = 1622394558,
+                        ["Qua'rk"] = 1620174128,
+                        ["Sir Grabby"] = 1622936710,
+                        ["Cusarru"] = 1622758714,
+                        ["Kattulli"] = 1552013040,
+                        ["Teimar Kusanagi"] = 1622758911,
+                        ["Venom Julius"] = 1622907897,
+                        ["Lincoln Lewis"] = 1622757084,
+                        ["Gfdguild"] = 1622733341,
+                        ["Princess Dyana"] = 1622936342,
+                        [""] = 1551406219,
+                        ["Morfeeus"] = 1552013117,
+                        ["Nibenay Mudcrab"] = 1550545224,
+                        ["Dwarven Spider Pet"] = 1553955214,
+                        ["Putrefacta"] = 1622936308,
+                        ["@indefinite77's Companion"] = 1622758911,
+                        ["Hunger"] = 1623446956,
+                        ["Varúna"] = 1622758652,
+                        ["@Esnorel"] = 1552012585,
+                        ["Mudcrab"] = 1619362499,
+                        ["Dartholomue"] = 1551033257,
+                        ["Gray Morthal Mastiff"] = 1550545218,
+                        ["@GFDGuild"] = 1622733341,
+                        ["@Rune.Priest"] = 1618438131,
+                        ["Rhiasandra"] = 1552013087,
+                        ["@joyfulness"] = 1622394558,
+                        ["Shroom Shalk (Red)"] = 1550945375,
+                        ["Ngozii"] = 1622908559,
+                        ["Beausen"] = 1552013040,
+                        ["@L1NKN"] = 1622757084,
+                        ["Captain Crash"] = 1552353437,
+                    },
                 },
                 ["GamepadAlchemyCreation"] = 
                 {
                     ["version"] = 1,
                     ["shouldFilterQuests"] = false,
                 },
-                ["DeathRecap"] = 
-                {
-                    ["version"] = 1,
-                    ["recapOn"] = false,
-                },
-                ["Provisioner"] = 
-                {
-                    ["version"] = 2,
-                    ["haveIngredientsChecked"] = false,
-                    ["questsOnlyChecked"] = false,
-                    ["haveSkillsChecked"] = false,
-                },
-                ["Dyeing"] = 
-                {
-                    ["showLocked"] = false,
-                    ["version"] = 1,
-                    ["sortStyle"] = 1,
-                },
-                ["GamepadEnchantingCreation"] = 
-                {
-                    ["version"] = 1,
-                    ["shouldFilterQuests"] = false,
-                },
-                ["SmithingExtraction"] = 
-                {
-                    ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
-                },
-                ["SmithingResearch"] = 
-                {
-                    ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
-                },
-                ["EnchantingCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["AutoComplete"] = 
-                {
-                    ["RecentInteractions"] = 
-                    {
-                        ["@joyfulness"] = 1622394558,
-                        ["Varúna"] = 1622758652,
-                        ["@Rune.Priest"] = 1618438131,
-                        ["Shroom Shalk (Red)"] = 1550945375,
-                        ["Mudcrab"] = 1619362499,
-                        ["Teimar Kusanagi"] = 1622758911,
-                        ["Morfeeus"] = 1552013117,
-                        ["Gray Morthal Mastiff"] = 1550545218,
-                        ["Eydill'a"] = 1622152349,
-                        ["Dwarven Spider Pet"] = 1553955214,
-                        [""] = 1551406219,
-                        ["Qua'rk"] = 1620174128,
-                        ["Burz gro-Stanza"] = 1622936321,
-                        ["Hunger"] = 1623106004,
-                        ["Beausen"] = 1552013040,
-                        ["Gfdguild"] = 1622733341,
-                        ["Ngozii"] = 1622908559,
-                        ["@Esnorel"] = 1552012585,
-                        ["Nibenay Mudcrab"] = 1550545224,
-                        ["Venom Julius"] = 1622907897,
-                        ["Kattulli"] = 1552013040,
-                        ["Litna Cheshire"] = 1622394558,
-                        ["@L1NKN"] = 1622757084,
-                        ["@GFDGuild"] = 1622733341,
-                        ["Cusarru"] = 1622758714,
-                        ["Princess Dyana"] = 1622936342,
-                        ["Lincoln Lewis"] = 1622757084,
-                        ["Captain Crash"] = 1552353437,
-                        ["@indefinite77's Companion"] = 1622758911,
-                        ["Rhiasandra"] = 1552013087,
-                        ["Sir Grabby"] = 1622936710,
-                        ["Dartholomue"] = 1551033257,
-                        ["Putrefacta"] = 1622936308,
-                    },
-                    ["version"] = 3,
-                },
-                ["AlchemyCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["PerformanceMeters"] = 
-                {
-                    ["version"] = 1,
-                    ["x"] = -20,
-                    ["y"] = -20,
-                    ["relPoint"] = 3,
-                    ["point"] = 3,
-                },
                 ["WorldMap"] = 
                 {
                     [1] = 
                     {
-                        ["x"] = 0,
+                        ["point"] = 128,
                         ["width"] = 488,
                         ["mapSize"] = 2,
-                        ["keepSquare"] = true,
-                        ["y"] = 0,
-                        ["relPoint"] = 128,
-                        ["point"] = 128,
+                        ["height"] = 550,
                         ["filters"] = 
                         {
                             [4] = 
@@ -518,11 +758,13 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["height"] = 550,
+                        ["y"] = 0,
+                        ["relPoint"] = 128,
+                        ["keepSquare"] = true,
+                        ["x"] = 0,
                     },
                     [2] = 
                     {
-                        ["mapSize"] = 1,
                         ["filters"] = 
                         {
                             [4] = 
@@ -541,9 +783,12 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
+                        ["mapSize"] = 1,
                     },
                     [3] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -557,7 +802,6 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -565,12 +809,10 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [4] = 
                     {
                         ["mapSize"] = 1,
-                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [4] = 
@@ -581,17 +823,20 @@ ZO_Ingame_SavedVariables =
                             },
                             [2] = 
                             {
-                                [11] = 1,
-                                [2] = false,
                                 [3] = false,
+                                [2] = false,
+                                [11] = 1,
                             },
                             [3] = 
                             {
                             },
                         },
+                        ["allowHistory"] = false,
                     },
                     [5] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [4] = 
@@ -609,7 +854,6 @@ ZO_Ingame_SavedVariables =
                             {
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -617,10 +861,11 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [6] = 
                     {
+                        ["mapSize"] = 1,
+                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [2] = 
@@ -634,7 +879,6 @@ ZO_Ingame_SavedVariables =
                                 [7] = false,
                             },
                         },
-                        ["mapSize"] = 1,
                         ["disabledStickyPins"] = 
                         {
                             [2] = 
@@ -642,12 +886,10 @@ ZO_Ingame_SavedVariables =
                                 [5] = true,
                             },
                         },
-                        ["allowHistory"] = false,
                     },
                     [7] = 
                     {
                         ["mapSize"] = 1,
-                        ["allowHistory"] = false,
                         ["filters"] = 
                         {
                             [4] = 
@@ -659,48 +901,98 @@ ZO_Ingame_SavedVariables =
                             },
                             [2] = 
                             {
-                                [3] = false,
+                                [11] = 1,
                                 [1] = false,
                                 [2] = false,
-                                [11] = 1,
+                                [3] = false,
                             },
                             [3] = 
                             {
                             },
                         },
+                        ["allowHistory"] = false,
                     },
                     ["version"] = 4,
                     ["userMode"] = 2,
                 },
-                ["GamepadSmithingCreation"] = 
+                ["EnchantingCreation"] = 
                 {
-                    ["haveMaterialChecked"] = true,
-                    ["version"] = 3,
-                    ["haveKnowledgeChecked"] = false,
-                    ["questsOnlyChecked"] = true,
-                    ["useUniversalStyleItemChecked"] = false,
+                    ["version"] = 1,
+                    ["questsOnlyChecked"] = false,
                 },
-                ["GamepadSmithingResearch"] = 
+                ["Provisioner"] = 
+                {
+                    ["haveIngredientsChecked"] = false,
+                    ["version"] = 2,
+                    ["haveSkillsChecked"] = false,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["GamepadProvisioner"] = 
+                {
+                    ["haveIngredientsChecked"] = false,
+                    ["version"] = 3,
+                    ["haveSkillsChecked"] = false,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["GamepadEnchantingCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["shouldFilterQuests"] = false,
+                },
+                ["SmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = true,
+                    ["version"] = 3,
+                    ["useUniversalStyleItemChecked"] = false,
+                    ["haveMaterialChecked"] = false,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["SmithingResearch"] = 
                 {
                     ["version"] = 1,
                     ["includeBankedItemsChecked"] = true,
                 },
                 ["OutfitSlots"] = 
                 {
-                    ["showLockedStyles"] = true,
                     ["version"] = 1,
+                    ["showLockedStyles"] = true,
                 },
-                ["GamepadProvisioner"] = 
+                ["ZO_ItemSetCollectionsDataManager"] = 
                 {
+                    ["equipmentFilterTypes"] = 
+                    {
+                    },
+                    ["version"] = 1,
+                    ["showLocked"] = true,
+                    ["equipmentFiltersTypes"] = 
+                    {
+                    },
+                },
+                ["GamepadSmithingCreation"] = 
+                {
+                    ["haveKnowledgeChecked"] = false,
                     ["version"] = 3,
-                    ["haveIngredientsChecked"] = false,
+                    ["useUniversalStyleItemChecked"] = false,
+                    ["haveMaterialChecked"] = false,
                     ["questsOnlyChecked"] = false,
-                    ["haveSkillsChecked"] = false,
+                },
+                ["GamepadSmithingExtraction"] = 
+                {
+                    ["version"] = 1,
+                    ["includeBankedItemsChecked"] = true,
+                },
+                ["PerformanceMeters"] = 
+                {
+                    ["point"] = 3,
+                    ["y"] = -20,
+                    ["version"] = 1,
+                    ["x"] = -20,
+                    ["relPoint"] = 3,
                 },
                 ["TradingHouseSearchHistory"] = 
                 {
-                    ["nextSearchOrderId"] = 75,
                     ["version"] = 2,
+                    ["nextSearchOrderId"] = 75,
                     ["searchEntries"] = 
                     {
                         [1] = 
@@ -708,10 +1000,9 @@ ZO_Ingame_SavedVariables =
                             ["searchOrderId"] = 0,
                             ["searchTable"] = 
                             {
-                                ["NameSearch"] = "",
                                 ["SearchCategory"] = "Weapons6",
-                                ["SearchSubcategory"] = "WeaponType11",
-                                ["Quality"] = 1,
+                                ["WeaponTraits"] = 1,
+                                ["NameSearch"] = "",
                                 ["LevelRange"] = 
                                 {
                                     [1] = 0,
@@ -721,8 +1012,9 @@ ZO_Ingame_SavedVariables =
                                 ["PriceRange"] = 
                                 {
                                 },
-                                ["WeaponTraits"] = 1,
+                                ["SearchSubcategory"] = "WeaponType11",
                                 ["WeaponEnchantments"] = 1,
+                                ["Quality"] = 1,
                             },
                         },
                         [2] = 
@@ -731,12 +1023,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "Furnishing211",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "Furnishing211",
                             },
                         },
                         [3] = 
@@ -745,12 +1037,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "TradeMaterial4",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "TradeMaterial4",
                             },
                         },
                         [4] = 
@@ -759,12 +1051,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "bug",
-                                ["SearchCategory"] = "AllItems",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllItems",
                             },
                         },
                         [5] = 
@@ -773,12 +1065,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "AllMaterials",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllMaterials",
                             },
                         },
                         [6] = 
@@ -787,12 +1079,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "corn",
-                                ["SearchCategory"] = "AllMaterials",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllMaterials",
                             },
                         },
                         [7] = 
@@ -801,12 +1093,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "ConsumableRecipe3",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "ConsumableRecipe3",
                             },
                         },
                         [8] = 
@@ -814,21 +1106,21 @@ ZO_Ingame_SavedVariables =
                             ["searchOrderId"] = 35,
                             ["searchTable"] = 
                             {
-                                ["NameSearch"] = "",
                                 ["SearchCategory"] = "Armor2",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["NameSearch"] = "",
                                 ["LevelRange"] = 
                                 {
                                     [1] = 0,
                                     [2] = 50,
                                     [3] = false,
                                 },
-                                ["ArmorEnchantments"] = 1,
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["ArmorTraits"] = 1,
+                                ["ArmorEnchantments"] = 1,
                             },
                         },
                         [9] = 
@@ -836,21 +1128,21 @@ ZO_Ingame_SavedVariables =
                             ["searchOrderId"] = 37,
                             ["searchTable"] = 
                             {
-                                ["NameSearch"] = "",
                                 ["SearchCategory"] = "Armor2",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["NameSearch"] = "",
                                 ["LevelRange"] = 
                                 {
                                     [1] = 0,
                                     [2] = 28,
                                     [3] = false,
                                 },
-                                ["ArmorEnchantments"] = 1,
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["ArmorTraits"] = 1,
+                                ["ArmorEnchantments"] = 1,
                             },
                         },
                         [10] = 
@@ -859,15 +1151,15 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "AllConsumables",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["PriceRange"] = 
+                                {
+                                },
+                                ["SearchSubcategory"] = "AllSubcategories",
+                                ["SearchCategory"] = "AllConsumables",
                                 ["LevelRange"] = 
                                 {
                                     [3] = false,
-                                },
-                                ["PriceRange"] = 
-                                {
                                 },
                             },
                         },
@@ -876,10 +1168,9 @@ ZO_Ingame_SavedVariables =
                             ["searchOrderId"] = 61,
                             ["searchTable"] = 
                             {
-                                ["NameSearch"] = "",
                                 ["SearchCategory"] = "Weapons6",
-                                ["SearchSubcategory"] = "WeaponType11",
-                                ["Quality"] = 1,
+                                ["WeaponTraits"] = 1,
+                                ["NameSearch"] = "",
                                 ["LevelRange"] = 
                                 {
                                     [3] = false,
@@ -887,8 +1178,9 @@ ZO_Ingame_SavedVariables =
                                 ["PriceRange"] = 
                                 {
                                 },
-                                ["WeaponTraits"] = 1,
+                                ["SearchSubcategory"] = "WeaponType11",
                                 ["WeaponEnchantments"] = 1,
+                                ["Quality"] = 1,
                             },
                         },
                         [12] = 
@@ -897,12 +1189,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "AllFurnishings",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllFurnishings",
                             },
                         },
                         [13] = 
@@ -911,12 +1203,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "Misc19",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "Misc19",
                             },
                         },
                         [14] = 
@@ -924,10 +1216,9 @@ ZO_Ingame_SavedVariables =
                             ["searchOrderId"] = 65,
                             ["searchTable"] = 
                             {
-                                ["NameSearch"] = "",
                                 ["SearchCategory"] = "AllWeapons",
-                                ["SearchSubcategory"] = "AllSubcategories",
-                                ["Quality"] = 1,
+                                ["WeaponTraits"] = 1,
+                                ["NameSearch"] = "",
                                 ["LevelRange"] = 
                                 {
                                     [3] = false,
@@ -935,8 +1226,9 @@ ZO_Ingame_SavedVariables =
                                 ["PriceRange"] = 
                                 {
                                 },
-                                ["WeaponTraits"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["WeaponEnchantments"] = 1,
+                                ["Quality"] = 1,
                             },
                         },
                         [15] = 
@@ -945,12 +1237,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "",
-                                ["SearchCategory"] = "AllItems",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllItems",
                             },
                         },
                         [16] = 
@@ -959,12 +1251,12 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "\"Crafting Motif 63: Dremora Boots\"",
-                                ["SearchCategory"] = "AllItems",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 5,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllItems",
                             },
                         },
                         [17] = 
@@ -973,333 +1265,41 @@ ZO_Ingame_SavedVariables =
                             ["searchTable"] = 
                             {
                                 ["NameSearch"] = "bait",
-                                ["SearchCategory"] = "AllItems",
-                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["Quality"] = 1,
+                                ["SearchSubcategory"] = "AllSubcategories",
                                 ["PriceRange"] = 
                                 {
                                 },
+                                ["SearchCategory"] = "AllItems",
                             },
                         },
                     },
-                },
-                ["SmithingCreation"] = 
-                {
-                    ["haveMaterialChecked"] = false,
-                    ["version"] = 3,
-                    ["haveKnowledgeChecked"] = true,
-                    ["questsOnlyChecked"] = false,
-                    ["useUniversalStyleItemChecked"] = false,
-                },
-            },
-            ["Phillip Son of Coul"] = 
-            {
-                ["ZO_ItemSetCollectionsDataManager"] = 
-                {
-                    ["showLocked"] = true,
-                    ["version"] = 1,
-                    ["equipmentFilterTypes"] = 
-                    {
-                    },
-                    ["equipmentFiltersTypes"] = 
-                    {
-                    },
-                },
-                ["Chat"] = 
-                {
-                    ["version"] = 4,
-                    ["containers"] = 
-                    {
-                        [1] = 
-                        {
-                            ["height"] = 267,
-                            ["x"] = 0,
-                            ["width"] = 445,
-                            ["relPoint"] = 6,
-                            ["y"] = -82,
-                            ["point"] = 6,
-                        },
-                    },
-                },
-                ["GamepadSmithingExtraction"] = 
-                {
-                    ["version"] = 1,
-                    ["includeBankedItemsChecked"] = true,
-                },
-                ["WorldMap"] = 
-                {
-                    [1] = 
-                    {
-                        ["x"] = 0,
-                        ["width"] = 488,
-                        ["mapSize"] = 2,
-                        ["keepSquare"] = true,
-                        ["y"] = 0,
-                        ["relPoint"] = 128,
-                        ["point"] = 128,
-                        ["filters"] = 
-                        {
-                            [4] = 
-                            {
-                            },
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [1] = false,
-                                [6] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                        ["height"] = 550,
-                    },
-                    [2] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["filters"] = 
-                        {
-                            [4] = 
-                            {
-                            },
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [1] = false,
-                                [6] = false,
-                                [11] = 1,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                    },
-                    [3] = 
-                    {
-                        ["filters"] = 
-                        {
-                            [2] = 
-                            {
-                                [8] = false,
-                                [1] = false,
-                                [3] = false,
-                                [4] = false,
-                                [5] = false,
-                                [11] = 1,
-                                [7] = false,
-                            },
-                        },
-                        ["mapSize"] = 1,
-                        ["disabledStickyPins"] = 
-                        {
-                            [2] = 
-                            {
-                                [5] = true,
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    [4] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["allowHistory"] = false,
-                        ["filters"] = 
-                        {
-                            [4] = 
-                            {
-                            },
-                            [1] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [11] = 1,
-                                [2] = false,
-                                [3] = false,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                    },
-                    [5] = 
-                    {
-                        ["filters"] = 
-                        {
-                            [4] = 
-                            {
-                            },
-                            [2] = 
-                            {
-                                [8] = false,
-                                [1] = false,
-                                [11] = 1,
-                                [5] = false,
-                                [3] = false,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                        ["mapSize"] = 1,
-                        ["disabledStickyPins"] = 
-                        {
-                            [2] = 
-                            {
-                                [5] = true,
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    [6] = 
-                    {
-                        ["filters"] = 
-                        {
-                            [2] = 
-                            {
-                                [8] = false,
-                                [1] = false,
-                                [10] = false,
-                                [3] = false,
-                                [4] = false,
-                                [5] = false,
-                                [7] = false,
-                            },
-                        },
-                        ["mapSize"] = 1,
-                        ["disabledStickyPins"] = 
-                        {
-                            [2] = 
-                            {
-                                [5] = true,
-                            },
-                        },
-                        ["allowHistory"] = false,
-                    },
-                    [7] = 
-                    {
-                        ["mapSize"] = 1,
-                        ["allowHistory"] = false,
-                        ["filters"] = 
-                        {
-                            [4] = 
-                            {
-                            },
-                            [1] = 
-                            {
-                                [1] = false,
-                            },
-                            [2] = 
-                            {
-                                [11] = 1,
-                                [1] = false,
-                                [2] = false,
-                                [3] = false,
-                            },
-                            [3] = 
-                            {
-                            },
-                        },
-                    },
-                    ["version"] = 4,
-                    ["userMode"] = 2,
-                },
-                ["DeathRecap"] = 
-                {
-                    ["version"] = 1,
-                    ["recapOn"] = true,
-                },
-                ["Provisioner"] = 
-                {
-                    ["version"] = 2,
-                    ["haveIngredientsChecked"] = true,
-                    ["questsOnlyChecked"] = false,
-                    ["haveSkillsChecked"] = true,
-                },
-                ["Dyeing"] = 
-                {
-                    ["showLocked"] = true,
-                    ["version"] = 1,
-                    ["sortStyle"] = 1,
-                },
-                ["GamepadEnchantingCreation"] = 
-                {
-                    ["version"] = 1,
-                    ["shouldFilterQuests"] = false,
                 },
                 ["SmithingExtraction"] = 
                 {
                     ["version"] = 1,
                     ["includeBankedItemsChecked"] = true,
                 },
-                ["EnchantingCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["AutoComplete"] = 
-                {
-                    ["RecentInteractions"] = 
-                    {
-                        ["Bantam Guar"] = 1550969674,
-                    },
-                    ["version"] = 3,
-                },
-                ["AlchemyCreation"] = 
-                {
-                    ["questsOnlyChecked"] = false,
-                    ["version"] = 1,
-                },
-                ["PerformanceMeters"] = 
+                ["DeathRecap"] = 
                 {
                     ["version"] = 1,
-                    ["x"] = -20,
-                    ["y"] = 20,
-                    ["relPoint"] = 6,
-                    ["point"] = 6,
+                    ["recapOn"] = false,
                 },
-                ["OutfitSlots"] = 
-                {
-                    ["showLockedStyles"] = true,
-                    ["version"] = 1,
-                },
-                ["SmithingCreation"] = 
-                {
-                    ["haveMaterialChecked"] = false,
-                    ["version"] = 3,
-                    ["haveKnowledgeChecked"] = true,
-                    ["questsOnlyChecked"] = false,
-                    ["useUniversalStyleItemChecked"] = false,
-                },
-                ["GamepadAlchemyCreation"] = 
-                {
-                    ["version"] = 1,
-                    ["shouldFilterQuests"] = false,
-                },
-                ["GamepadProvisioner"] = 
-                {
-                    ["version"] = 3,
-                    ["haveIngredientsChecked"] = false,
-                    ["questsOnlyChecked"] = false,
-                    ["haveSkillsChecked"] = false,
-                },
-                ["TradingHouseSearchHistory"] = 
-                {
-                    ["nextSearchOrderId"] = 0,
-                    ["version"] = 2,
-                    ["searchEntries"] = 
-                    {
-                    },
-                },
-                ["SmithingResearch"] = 
+                ["GamepadSmithingResearch"] = 
                 {
                     ["version"] = 1,
                     ["includeBankedItemsChecked"] = true,
+                },
+                ["AlchemyCreation"] = 
+                {
+                    ["version"] = 1,
+                    ["questsOnlyChecked"] = false,
+                },
+                ["Dyeing"] = 
+                {
+                    ["version"] = 1,
+                    ["sortStyle"] = 1,
+                    ["showLocked"] = false,
                 },
             },
         },

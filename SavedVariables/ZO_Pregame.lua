@@ -13,8 +13,8 @@ ZO_Pregame_SavedVariables =
                 },
                 ["ChapterUpgrade"] = 
                 {
-                    ["chapterUpgradeSeenVersion"] = 5,
                     ["version"] = 1,
+                    ["chapterUpgradeSeenVersion"] = 5,
                 },
             },
         },

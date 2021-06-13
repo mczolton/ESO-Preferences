@@ -26,10 +26,10 @@ MP_SavedVars =
                 [18] = false,
                 [19] = false,
                 [21] = true,
-                ["version"] = 2,
                 ["TimeBreachClosed"] = 
                 {
                 },
+                ["version"] = 2,
             },
         },
     },
@@ -42,8 +42,8 @@ MP_SavedGlobal =
         {
             ["$AccountWide"] = 
             {
-                ["pinsize"] = 20,
                 ["version"] = 1,
+                ["pinsize"] = 20,
             },
         },
     },
