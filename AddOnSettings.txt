@@ -1,17 +1,3 @@
-#Version 100035
-#AcknowledgedOutOfDateAddonsVersion 100035
-#Default
-TrueExploration 0
-LibDebugLogger 0
-LibChatMessage 0
-LibGPS 0
-LibMapPing 0
-#NA Megaserver-Putrefacta
-DarkUI 1
-TrueExploration 0
-LibDebugLogger 0
-AuraMastery 0
-LibChatMessage 0
-LibGPS 0
-Srendarr 1
-LibMapPing 0
+#Version 101032
+#AcknowledgedOutOfDateAddonsVersion 101032
+#AddOnsEnabled 0
