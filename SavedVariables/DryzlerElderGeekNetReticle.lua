@@ -6,6 +6,45 @@ DryzlerElderGeekNetReticleSavedVariables =
         {
             ["$AccountWide"] = 
             {
+                ["settings"] = 
+                {
+                    ["rule"] = 
+                    {
+                        ["rotate"] = false,
+                        ["hruleScale"] = 100,
+                        ["vrule"] = true,
+                        ["hrule"] = true,
+                        ["hruleAlpha"] = 75,
+                        ["vruleAlpha"] = 75,
+                        ["vruleScale"] = 100,
+                    },
+                    ["circle"] = 
+                    {
+                        ["vrule"] = false,
+                        ["hrule"] = false,
+                        ["hruleAlpha"] = 50,
+                        ["vruleAlpha"] = 50,
+                        ["scale"] = 66,
+                    },
+                    ["modes"] = 
+                    {
+                        ["circle"] = false,
+                        ["rule"] = false,
+                        ["square"] = false,
+                        ["dot"] = true,
+                    },
+                    ["square"] = 
+                    {
+                        ["rotate"] = false,
+                        ["scale"] = 76,
+                    },
+                    ["dot"] = 
+                    {
+                        ["scale"] = 100,
+                    },
+                },
+                ["version"] = 2,
+                ["degad1"] = true,
                 ["Default"] = 
                 {
                     ["@blakdeth913"] = 
@@ -14,7 +53,6 @@ DryzlerElderGeekNetReticleSavedVariables =
                         {
                             ["LibMOTD"] = 
                             {
-                                ["version"] = 2,
                                 ["messages"] = 
                                 {
                                     [1] = 
@@ -27,49 +65,11 @@ DryzlerElderGeekNetReticleSavedVariables =
                                         },
                                     },
                                 },
+                                ["version"] = 2,
                             },
                         },
                     },
                 },
-                ["settings"] = 
-                {
-                    ["circle"] = 
-                    {
-                        ["hruleAlpha"] = 50,
-                        ["scale"] = 100,
-                        ["vrule"] = false,
-                        ["vruleAlpha"] = 50,
-                        ["hrule"] = false,
-                    },
-                    ["square"] = 
-                    {
-                        ["rotate"] = false,
-                        ["scale"] = 76,
-                    },
-                    ["modes"] = 
-                    {
-                        ["circle"] = false,
-                        ["rule"] = false,
-                        ["square"] = true,
-                        ["dot"] = false,
-                    },
-                    ["rule"] = 
-                    {
-                        ["hruleScale"] = 100,
-                        ["rotate"] = false,
-                        ["vruleAlpha"] = 75,
-                        ["hruleAlpha"] = 75,
-                        ["vrule"] = true,
-                        ["vruleScale"] = 100,
-                        ["hrule"] = true,
-                    },
-                    ["dot"] = 
-                    {
-                        ["scale"] = 100,
-                    },
-                },
-                ["degad1"] = true,
-                ["version"] = 2,
             },
         },
     },

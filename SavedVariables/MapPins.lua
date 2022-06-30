@@ -11,21 +11,26 @@ MP_SavedVars =
                 [3] = true,
                 [4] = false,
                 [5] = true,
-                [6] = false,
+                [6] = true,
                 [7] = true,
                 [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
+                [9] = true,
+                [10] = true,
+                [11] = true,
+                [12] = true,
+                [13] = true,
+                [14] = true,
+                [15] = true,
+                [16] = true,
+                [17] = true,
+                [18] = true,
+                [19] = true,
+                [20] = true,
                 [21] = true,
+                [22] = true,
+                [23] = true,
+                [24] = true,
+                [26] = true,
                 ["TimeBreachClosed"] = 
                 {
                 },
@@ -56,6 +61,29 @@ MP_ChestData =
         {
             ["$AccountWide"] = 
             {
+                ["hallsofregulation_2"] = 
+                {
+                    [4] = 
+                    {
+                        [2] = 0.4815000000,
+                        [1] = 0.3722000000,
+                    },
+                    [1] = 
+                    {
+                        [2] = 0.6704000000,
+                        [1] = 0.3424000000,
+                    },
+                    [2] = 
+                    {
+                        [2] = 0.5684000000,
+                        [1] = 0.3238000000,
+                    },
+                    [3] = 
+                    {
+                        [2] = 0.4222000000,
+                        [1] = 0.3390000000,
+                    },
+                },
                 ["version"] = 2,
             },
         },
